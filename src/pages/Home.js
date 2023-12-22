@@ -23,7 +23,7 @@ const Home = () => {
                       event organisers, promoters, and managers. Easily create,
                       promote and manage your events of any type and size.
                     </p>
-                    <a href="create.html" class="main-btn btn-hover">
+                    <a href="/create-events" class="main-btn btn-hover">
                       Create Event <i class="fa-solid fa-arrow-right ms-3"></i>
                     </a>
                   </div>
