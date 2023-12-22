@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, shrink-to-fit=9" />
+    <meta name="description" content="Gambolthemes" />
+    <meta name="author" content="Gambolthemes" />
+    <title>Ticket Loop - Simple Online Event Ticketing System</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="images/fav.png" />
+
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="vendor/unicons-2.0.1/css/unicons.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/night-mode.css" rel="stylesheet" />
+
+    <!-- Vendor Stylesheets -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link
+      href="vendor/OwlCarousel/assets/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!-- jquery latest version -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/OwlCarousel/owl.carousel.js"></script>
+    <script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="vendor/mixitup/dist/mixitup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/night-mode.js"></script>
+    <script>
+      var containerEl = document.querySelector(
+        '[data-ref~="event-filter-content"]'
+      );
+
+      var mixer = mixitup(containerEl, {
+        selectors: {
+          target: '[data-ref~="mixitup-target"]',
+        },
+      });
+    </script>
+
+    <script>
+      $("#add-event-tab").steps({
+        onFinish: function () {
+          alert("Wizard Completed");
+        },
+      });
+    </script>
+    <!-- <script>
+      ClassicEditor.create(document.querySelector("#pd_editor"), {
+        // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+      })
+        .then((editor) => {
+          window.editor = editor;
+        })
+        .catch((err) => {
+          console.error(err.stack);
+        });
+    </script> -->
+
+    <script src="js/jquery-steps.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/i18n/datepicker.en.js"></script>
+
+    <script>
+      ClassicEditor.create(document.querySelector("#pd_editor"), {
+        // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+      })
+        .then((editor) => {
+          window.editor = editor;
+        })
+        .catch((err) => {
+          console.error(err.stack);
+        });
+    </script>
+  </body>
+</html>
