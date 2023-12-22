@@ -1,5 +1,5 @@
 import React from "react";
-
+import parkwell from "./pages/parklogo.png";
 const Dashboard = () => {
   return (
     <>
@@ -338,15 +338,11 @@ const Dashboard = () => {
                   href="index.html"
                 >
                   <div class="res-main-logo">
-                    <img src="images/logo-icon.svg" alt="" />
+                    <img src={parkwell} alt="" />
                   </div>
                   <div class="main-logo" id="logo">
-                    <img src="images/logo.svg" alt="" />
-                    <img
-                      class="logo-inverse"
-                      src="images/dark-logo.svg"
-                      alt=""
-                    />
+                    <img src={parkwell} alt="" />
+                    <img class="logo-inverse" src={parkwell} alt="" />
                   </div>
                 </a>
                 <div
@@ -357,7 +353,7 @@ const Dashboard = () => {
                 >
                   <div class="offcanvas-header">
                     <div class="offcanvas-logo" id="offcanvasNavbarLabel">
-                      <img src="images/logo-icon.svg" alt="" />
+                      <img src={parkwell} alt="" />
                     </div>
                     <button
                       type="button"
