@@ -176,7 +176,7 @@ const Header = () => {
                         </div>
                       </li>
                       <li class="profile-link">
-                        <a href="/organizer-profile" class="link-item">
+                        <a href="/dashboard" class="link-item">
                           My Dashboard
                         </a>
                         <a href="/organizer-profile" class="link-item">

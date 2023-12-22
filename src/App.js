@@ -18,6 +18,7 @@ import BlogDet from "./pages/BlogDet";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import OurBlog from "./pages/OurBlog";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/blog-detail" element={<BlogDet />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   );
