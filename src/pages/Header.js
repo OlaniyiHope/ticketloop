@@ -21,7 +21,7 @@ const Header = () => {
               </button>
               <a
                 class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto"
-                href="index.html"
+                href="/"
               >
                 <div class="res-main-logo">
                   <img src={parkwell} alt="" />
