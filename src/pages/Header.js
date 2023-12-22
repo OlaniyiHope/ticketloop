@@ -53,7 +53,7 @@ const Header = () => {
                 <div class="offcanvas-body">
                   <div class="offcanvas-top-area">
                     <div class="create-bg">
-                      <a href="create.html" class="offcanvas-create-btn">
+                      <a href="/create-event" class="offcanvas-create-btn">
                         <i class="fa-solid fa-calendar-days"></i>
                         <span>Create Event</span>
                       </a>
