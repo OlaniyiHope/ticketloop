@@ -1,7 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import parkwell from "./parklogo.png";
 
 const Dashboard = () => {
   return (
