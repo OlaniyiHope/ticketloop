@@ -43,19 +43,19 @@ const Home = () => {
                   <div class="event-filter-items">
                     <div class="featured-controls">
                       <div class="filter-tag">
-                        <a href="explore_events_by_date.html" class="active">
+                        <a href="/event-by-date" class="active">
                           All
                         </a>
-                        <a href="explore_events_by_date.html">Today</a>
-                        <a href="explore_events_by_date.html">Tomorrow</a>
-                        <a href="explore_events_by_date.html">This Week</a>
-                        <a href="explore_events_by_date.html">This Weekend</a>
-                        <a href="explore_events_by_date.html">Next Week</a>
-                        <a href="explore_events_by_date.html">Next Weekend</a>
-                        <a href="explore_events_by_date.html">This Month</a>
-                        <a href="explore_events_by_date.html">Next Month</a>
-                        <a href="explore_events_by_date.html">This Year</a>
-                        <a href="explore_events_by_date.html">Next Year</a>
+                        <a href="/event-by-date">Today</a>
+                        <a href="/event-by-date">Tomorrow</a>
+                        <a href="/event-by-date">This Week</a>
+                        <a href="/event-by-date">This Weekend</a>
+                        <a href="/event-by-date">Next Week</a>
+                        <a href="/event-by-date">Next Weekend</a>
+                        <a href="/event-by-date">This Month</a>
+                        <a href="/event-by-date">Next Month</a>
+                        <a href="/event-by-date">This Year</a>
+                        <a href="/event-by-date">Next Year</a>
                       </div>
                       <div class="controls">
                         <button type="button" class="control" data-filter="all">
@@ -132,10 +132,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/venue-event" class="thumbnail-img">
                                 <img src="images/event-imgs/img-1.jpg" alt="" />
                               </a>
                               <span
@@ -144,14 +141,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/venue-event" class="event-title">
                                 A New Way Of Life
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $100.00*</span>
+                                <span class="duration-price">N7,500*</span>
                                 <span class="remaining"></span>
                               </div>
                             </div>
@@ -180,10 +174,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/event-details" class="thumbnail-img">
                                 <img src="images/event-imgs/img-2.jpg" alt="" />
                               </a>
                               <span
@@ -192,14 +183,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/event-details" class="event-title">
                                 Earrings Workshop with Bronwyn David
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $75.00*</span>
+                                <span class="duration-price">N7,500*</span>
                                 <span class="remaining">
                                   <i class="fa-solid fa-ticket fa-rotate-90"></i>
                                   6 Remaining
@@ -231,10 +219,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/venue-event" class="thumbnail-img">
                                 <img src="images/event-imgs/img-3.jpg" alt="" />
                               </a>
                               <span
@@ -243,10 +228,7 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/venue-event" class="event-title">
                                 Spring Showcase Saturday April 30th 2022 at 7pm
                               </a>
                               <div class="duration-price-remaining">
@@ -279,10 +261,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/event-details" class="thumbnail-img">
                                 <img src="images/event-imgs/img-4.jpg" alt="" />
                               </a>
                               <span
@@ -291,14 +270,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/event-details" class="event-title">
                                 Shutter Life
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $85.00</span>
+                                <span class="duration-price">N7,500*</span>
                                 <span class="remaining">
                                   <i class="fa-solid fa-ticket fa-rotate-90"></i>
                                   7 Remaining
@@ -330,10 +306,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/venue-event" class="thumbnail-img">
                                 <img src="images/event-imgs/img-5.jpg" alt="" />
                               </a>
                               <span
@@ -342,15 +315,12 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/venue-event" class="event-title">
                                 Friday Night Dinner at The Old Station May 27
                                 2022
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $41.50*</span>
+                                <span class="duration-price"> N41.50*</span>
                                 <span class="remaining"></span>
                               </div>
                             </div>
@@ -379,10 +349,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/venue-event" class="thumbnail-img">
                                 <img src="images/event-imgs/img-6.jpg" alt="" />
                               </a>
                               <span
@@ -391,14 +358,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/venue-event" class="event-title">
                                 Step Up Open Mic Show
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $200.00*</span>
+                                <span class="duration-price"> N200.00*</span>
                                 <span class="remaining"></span>
                               </div>
                             </div>
@@ -427,10 +391,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/event-details" class="thumbnail-img">
                                 <img src="images/event-imgs/img-7.jpg" alt="" />
                               </a>
                               <span
@@ -439,14 +400,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="online_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/event-details" class="event-title">
                                 Tutorial on Canvas Painting for Beginners
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $50.00*</span>
+                                <span class="duration-price"> N50.00*</span>
                                 <span class="remaining">
                                   <i class="fa-solid fa-ticket fa-rotate-90"></i>
                                   17 Remaining
@@ -478,10 +436,7 @@ const Home = () => {
                         >
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="thumbnail-img"
-                              >
+                              <a href="/venue-event" class="thumbnail-img">
                                 <img src="images/event-imgs/img-8.jpg" alt="" />
                               </a>
                               <span
@@ -490,14 +445,11 @@ const Home = () => {
                               ></span>
                             </div>
                             <div class="event-content">
-                              <a
-                                href="venue_event_detail_view.html"
-                                class="event-title"
-                              >
+                              <a href="/venue-event" class="event-title">
                                 Trainee Program on Leadership' 2022
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">AUD $120.00*</span>
+                                <span class="duration-price"> N120.00*</span>
                                 <span class="remaining">
                                   <i class="fa-solid fa-ticket fa-rotate-90"></i>
                                   7 Remaining

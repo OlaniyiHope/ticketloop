@@ -19,6 +19,7 @@ import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import OurBlog from "./pages/OurBlog";
 import Dashboard from "./Dashboard";
+import Eventbydate from "./pages/Eventbydate";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/event-by-date" element={<Eventbydate />} />
       </Routes>
     </BrowserRouter>
   );

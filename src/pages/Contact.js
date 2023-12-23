@@ -139,7 +139,7 @@ const Contact = () => {
                                         // style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"
                                       ></i>
                                     </div>
-                                    <a href="#">contact@barren.com</a>
+                                    <a href="#">contact@ticketloop.com</a>
                                   </div>
                                 </li>
                                 <li>
@@ -191,7 +191,7 @@ const Contact = () => {
                                     // style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"
                                   ></i>
                                 </div>
-                                <a href="#">contact@barren.com</a>
+                                <a href="#">contact@ticketloop.com</a>
                               </div>
                             </li>
                             <li>
