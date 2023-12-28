@@ -12,7 +12,7 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #0000ff;
+  --bs-green: #151b54;
   --bs-teal: #006cff;
   --bs-cyan: #006cff;
   --bs-white: #fff;
@@ -29,7 +29,7 @@
   --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
-  --bs-success: #0000ff;
+  --bs-success: #151b54;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -2463,7 +2463,7 @@ textarea.form-control-lg {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #0000ff;
+  color: #151b54;
 }
 .valid-tooltip {
   position: absolute;
@@ -2486,7 +2486,7 @@ textarea.form-control-lg {
 }
 .form-control.is-valid,
 .was-validated .form-control:valid {
-  border-color: #0000ff;
+  border-color: #151b54;
   padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2495,7 +2495,7 @@ textarea.form-control-lg {
 }
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
-  border-color: #0000ff;
+  border-color: #151b54;
   box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
 }
 .was-validated textarea.form-control:valid,
@@ -2506,7 +2506,7 @@ textarea.form-control.is-valid {
 }
 .form-select.is-valid,
 .was-validated .form-select:valid {
-  border-color: #0000ff;
+  border-color: #151b54;
 }
 .form-select.is-valid:not([multiple]):not([size]),
 .form-select.is-valid:not([multiple])[size="1"],
@@ -2520,16 +2520,16 @@ textarea.form-control.is-valid {
 }
 .form-select.is-valid:focus,
 .was-validated .form-select:valid:focus {
-  border-color: #0000ff;
+  border-color: #151b54;
   box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
 }
 .form-check-input.is-valid,
 .was-validated .form-check-input:valid {
-  border-color: #0000ff;
+  border-color: #151b54;
 }
 .form-check-input.is-valid:checked,
 .was-validated .form-check-input:valid:checked {
-  background-color: #0000ff;
+  background-color: #151b54;
 }
 .form-check-input.is-valid:focus,
 .was-validated .form-check-input:valid:focus {
@@ -2537,7 +2537,7 @@ textarea.form-control.is-valid {
 }
 .form-check-input.is-valid ~ .form-check-label,
 .was-validated .form-check-input:valid ~ .form-check-label {
-  color: #0000ff;
+  color: #151b54;
 }
 .form-check-inline .form-check-input ~ .valid-feedback {
   margin-left: 0.5em;
@@ -2769,8 +2769,8 @@ fieldset:disabled .btn {
 }
 .btn-success {
   color: #fff;
-  background-color: #0000ff;
-  border-color: #0000ff;
+  background-color: #151b54;
+  border-color: #151b54;
 }
 .btn-success:hover {
   color: #fff;
@@ -2803,8 +2803,8 @@ fieldset:disabled .btn {
 .btn-success.disabled,
 .btn-success:disabled {
   color: #fff;
-  background-color: #0000ff;
-  border-color: #0000ff;
+  background-color: #151b54;
+  border-color: #151b54;
 }
 .btn-info {
   color: #000;
@@ -3070,13 +3070,13 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 .btn-outline-success {
-  color: #0000ff;
-  border-color: #0000ff;
+  color: #151b54;
+  border-color: #151b54;
 }
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #0000ff;
-  border-color: #0000ff;
+  background-color: #151b54;
+  border-color: #151b54;
 }
 .btn-check:focus + .btn-outline-success,
 .btn-outline-success:focus {
@@ -3088,8 +3088,8 @@ fieldset:disabled .btn {
 .btn-outline-success.dropdown-toggle.show,
 .btn-outline-success:active {
   color: #fff;
-  background-color: #0000ff;
-  border-color: #0000ff;
+  background-color: #151b54;
+  border-color: #151b54;
 }
 .btn-check:active + .btn-outline-success:focus,
 .btn-check:checked + .btn-outline-success:focus,
@@ -3100,7 +3100,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-success.disabled,
 .btn-outline-success:disabled {
-  color: #0000ff;
+  color: #151b54;
   background-color: transparent;
 }
 .btn-outline-info {
@@ -6137,7 +6137,7 @@ fieldset:disabled .btn {
   color: #565e64;
 }
 .link-success {
-  color: #0000ff;
+  color: #151b54;
 }
 .link-success:focus,
 .link-success:hover {
@@ -6506,7 +6506,7 @@ fieldset:disabled .btn {
   border-color: #6c757d !important;
 }
 .border-success {
-  border-color: #0000ff !important;
+  border-color: #151b54 !important;
 }
 .border-info {
   border-color: #0dcaf0 !important;
