@@ -24,6 +24,7 @@ import Eventbydate from "./pages/Eventbydate";
 import Dashboard2 from "./Dashboard2";
 import DashboardProfile from "./pages/DashboardProfile";
 import DashboardEvent from "./pages/DashboardEvent";
+import Payout from "./pages/Payout";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboard-two" element={<Dashboard2 />} />
         <Route path="/dashboard-profile" element={<DashboardProfile />} />
+        <Route path="/dashboard-payout" element={<Payout />} />
         <Route path="/dashboard-event" element={<DashboardEvent />} />
         <Route path="/event-by-date" element={<Eventbydate />} />
       </Routes>

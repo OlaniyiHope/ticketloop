@@ -47,7 +47,7 @@ const Sidebar = () => {
               </li>
               <li class="menu--item">
                 <a
-                  href="my_organisation_dashboard_payout.html"
+                  href="/dashboard-payout"
                   class="menu--link"
                   title="Payouts"
                   data-bs-toggle="tooltip"
