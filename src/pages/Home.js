@@ -613,7 +613,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-1.png" alt="" />
+                            <img src="images/icons/icon11.png" alt="" />
                           </div>
                           <h4>Online Events</h4>
                           <p>
@@ -625,7 +625,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-2.png" alt="" />
+                            <img src="images/icons/icon12.png" alt="" />
                           </div>
                           <h4>Venue Event</h4>
                           <p>
@@ -637,7 +637,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-3.png" alt="" />
+                            <img src="images/icons/icon13.png" alt="" />
                           </div>
                           <h4>Engaging Event Page</h4>
                           <p>
@@ -649,7 +649,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-4.png" alt="" />
+                            <img src="images/icons/icon4.png" alt="" />
                           </div>
                           <h4>Marketing Automation</h4>
                           <p>
@@ -661,7 +661,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-5.png" alt="" />
+                            <img src="images/icons/icon5.png" alt="" />
                           </div>
                           <h4>Sell Tickets</h4>
                           <p>
@@ -673,7 +673,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-6.png" alt="" />
+                            <img src="images/icons/icon6.png" alt="" />
                           </div>
                           <h4>Networking</h4>
                           <p>
@@ -685,7 +685,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-7.png" alt="" />
+                            <img src="images/icons/icon7.png" alt="" />
                           </div>
                           <h4>Recording</h4>
                           <p>
