@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import parkwell from "./parklogo.png";
+import fun from "./fun.jpeg";
+import free from "./free.jpeg";
 
 const Home = () => {
   return (
@@ -133,7 +135,7 @@ const Home = () => {
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
                               <a href="/venue-event" class="thumbnail-img">
-                                <img src="images/event-imgs/img-1.jpg" alt="" />
+                                <img src={fun} alt="" />
                               </a>
                               <span
                                 class="bookmark-icon"
@@ -142,11 +144,11 @@ const Home = () => {
                             </div>
                             <div class="event-content">
                               <a href="/venue-event" class="event-title">
-                                A New Way Of Life
+                                Funtrip Lagos 2.0
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">N7,500*</span>
-                                <span class="remaining"></span>
+                                <span class="duration-price">N25,000*</span>
+                                <span class="remaining">6 slot</span>
                               </div>
                             </div>
                             <div class="event-footer">
@@ -154,12 +156,12 @@ const Home = () => {
                                 <div class="publish-date">
                                   <span>
                                     <i class="fa-solid fa-calendar-day me-2"></i>
-                                    15 Apr
+                                    Tomorrow
                                   </span>
                                   <span class="dot">
                                     <i class="fa-solid fa-circle"></i>
                                   </span>
-                                  <span>Fri, 3.45 PM</span>
+                                  <span> 3.45 PM</span>
                                 </div>
                                 <span class="publish-time">
                                   <i class="fa-solid fa-clock me-2"></i>1h
@@ -175,7 +177,7 @@ const Home = () => {
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
                               <a href="/event-details" class="thumbnail-img">
-                                <img src="images/event-imgs/img-2.jpg" alt="" />
+                                <img src={free} alt="" />
                               </a>
                               <span
                                 class="bookmark-icon"
@@ -184,10 +186,11 @@ const Home = () => {
                             </div>
                             <div class="event-content">
                               <a href="/event-details" class="event-title">
-                                Earrings Workshop with Bronwyn David
+                                Dimensions of The Spirit Conference with the
+                                Bond servant of Christ John
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">N7,500*</span>
+                                <span class="duration-price">Free</span>
                                 <span class="remaining">
                                   <i class="fa-solid fa-ticket fa-rotate-90"></i>
                                   6 Remaining
