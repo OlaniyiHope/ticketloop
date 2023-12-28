@@ -697,7 +697,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-8.png" alt="" />
+                            <img src="images/icons/icon8.png" alt="" />
                           </div>
                           <h4>Live Streaming</h4>
                           <p>
@@ -709,7 +709,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img src="images/icons/feature-icon-9.png" alt="" />
+                            <img src="images/icons/icon9.png" alt="" />
                           </div>
                           <h4>Engagement Metrics</h4>
                           <p>
@@ -721,10 +721,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img
-                              src="images/icons/feature-icon-10.png"
-                              alt=""
-                            />
+                            <img src="images/icons/icon20.png" alt="" />
                           </div>
                           <h4>Security & Support</h4>
                           <p>
@@ -736,10 +733,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img
-                              src="images/icons/feature-icon-11.png"
-                              alt=""
-                            />
+                            <img src="images/icons/icon21.png" alt="" />
                           </div>
                           <h4>Reports & Analytics</h4>
                           <p>
@@ -751,10 +745,7 @@ const Home = () => {
                       <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="feature-item mt-46">
                           <div class="feature-icon">
-                            <img
-                              src="images/icons/feature-icon-12.png"
-                              alt=""
-                            />
+                            <img src="images/icons/icon22.png" alt="" />
                           </div>
                           <h4>Mobile & Desktop App</h4>
                           <p>
