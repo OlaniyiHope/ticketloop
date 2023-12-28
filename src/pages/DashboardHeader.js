@@ -73,7 +73,7 @@ const DashboardHeader = () => {
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="explore_events.html">
+                      <a class="nav-link" href="/explore-events">
                         <i class="fa-solid fa-compass me-2"></i>Explore Events
                       </a>
                     </li>
