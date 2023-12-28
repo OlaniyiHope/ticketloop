@@ -4,6 +4,7 @@ import Header from "./Header";
 import parkwell from "./parklogo.png";
 import fun from "./fun.jpeg";
 import free from "./free.jpeg";
+import lagos from "./lagos.png";
 
 const Home = () => {
   return (
@@ -223,7 +224,7 @@ const Home = () => {
                           <div class="main-card mt-4">
                             <div class="event-thumbnail">
                               <a href="/venue-event" class="thumbnail-img">
-                                <img src="images/event-imgs/img-3.jpg" alt="" />
+                                <img src={lagos} alt="" />
                               </a>
                               <span
                                 class="bookmark-icon"
@@ -232,10 +233,10 @@ const Home = () => {
                             </div>
                             <div class="event-content">
                               <a href="/venue-event" class="event-title">
-                                Spring Showcase Saturday April 30th 2022 at 7pm
+                                Lagos Fash Fair for Africa
                               </a>
                               <div class="duration-price-remaining">
-                                <span class="duration-price">Free*</span>
+                                <span class="duration-price">N10,000</span>
                                 <span class="remaining"></span>
                               </div>
                             </div>
