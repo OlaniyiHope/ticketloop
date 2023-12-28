@@ -657,7 +657,7 @@ const DashboardProfile = () => {
               <ul>
                 <li class="menu--item">
                   <a
-                    href="my_organisation_dashboard.html"
+                    href="/dashboard"
                     class="menu--link"
                     title="Dashboard"
                     data-bs-toggle="tooltip"
