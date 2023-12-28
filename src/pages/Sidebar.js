@@ -107,7 +107,7 @@ const Sidebar = () => {
               </li>
               <li class="menu--item">
                 <a
-                  href="my_organisation_dashboard_my_team.html"
+                  href="/dashboard-team"
                   class="menu--link team-lock"
                   title="My Team"
                   data-bs-toggle="tooltip"

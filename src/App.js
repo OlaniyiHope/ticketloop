@@ -26,6 +26,7 @@ import DashboardProfile from "./pages/DashboardProfile";
 import DashboardEvent from "./pages/DashboardEvent";
 import Payout from "./pages/Payout";
 import Report from "./pages/Report";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path="/dashboard-event" element={<DashboardEvent />} />
         <Route path="/event-by-date" element={<Eventbydate />} />
         <Route path="/dashboard-report" element={<Report />} />
+        <Route path="/dashboard-team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   );
