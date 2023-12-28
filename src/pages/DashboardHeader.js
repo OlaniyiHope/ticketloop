@@ -68,7 +68,7 @@ const DashboardHeader = () => {
                   </div>
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe_5">
                     <li class="nav-item">
-                      <a class="nav-link" href="organiser_profile_view.html">
+                      <a class="nav-link" href="/">
                         <i class="fa-solid fa-right-left me-2"></i>My Home
                       </a>
                     </li>
