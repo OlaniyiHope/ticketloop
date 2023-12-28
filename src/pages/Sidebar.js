@@ -22,7 +22,7 @@ const Sidebar = () => {
               </li>
               <li class="menu--item">
                 <a
-                  href="my_organisation_dashboard_events.html"
+                  href="/dashboard-event"
                   class="menu--link"
                   title="Events"
                   data-bs-toggle="tooltip"
