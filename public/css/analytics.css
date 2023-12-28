@@ -43,20 +43,20 @@ svg {
 .ct-point {
   stroke-width: 6px !important;
   cursor: pointer;
-  stroke: #198754 !important;
+  stroke: #0000ff !important;
 }
 
 .ct-series-a .ct-bar,
 .ct-series-a .ct-line,
 .ct-series-a .ct-point,
 .ct-series-a .ct-slice-donut {
-  stroke: #198754 !important;
+  stroke: #0000ff !important;
 }
 
 .ct-series-a .ct-area,
 .ct-series-a .ct-slice-donut-solid,
 .ct-series-a .ct-slice-pie {
-  fill: #198754 !important;
+  fill: #0000ff !important;
 }
 
 .ct-series-a .ct-area,
