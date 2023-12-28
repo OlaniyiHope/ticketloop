@@ -24,11 +24,24 @@ const Header = () => {
                 href="/"
               >
                 <div class="res-main-logo">
-                  <img src={parkwell} alt="" />
+                  <img
+                    src={parkwell}
+                    alt=""
+                    style={{ width: "100px", height: "30px" }}
+                  />
                 </div>
                 <div class="main-logo" id="logo">
-                  <img src={parkwell} alt="" />
-                  <img class="logo-inverse" src={parkwell} alt="" />
+                  <img
+                    src={parkwell}
+                    alt=""
+                    style={{ width: "100px", height: "30px" }}
+                  />
+                  <img
+                    class="logo-inverse"
+                    src={parkwell}
+                    alt=""
+                    style={{ width: "100px", height: "30px" }}
+                  />
                 </div>
               </a>
               <div
@@ -38,9 +51,7 @@ const Header = () => {
                 aria-labelledby="offcanvasNavbarLabel"
               >
                 <div class="offcanvas-header">
-                  <div class="offcanvas-logo" id="offcanvasNavbarLabel">
-                    <img src={parkwell} alt="" />
-                  </div>
+                  <div class="offcanvas-logo" id="offcanvasNavbarLabel"></div>
                   <button
                     type="button"
                     class="close-btn"
