@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import parkwell from "./remo.png";
+import parkwell from "./new.png";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import DashboardHeader from "./DashboardHeader";

@@ -1,5 +1,5 @@
 import React from "react";
-import parkwell from "./pages/remo.png";
+import parkwell from "./pages/new.png";
 import Sidebar from "./pages/Sidebar";
 import DashboardHeader from "./pages/DashboardHeader";
 const Dashboard = () => {
