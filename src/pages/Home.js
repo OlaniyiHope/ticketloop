@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <body class="d-flex flex-column h-100">
         <Header />
-        <div class="wrapper">
+        <div class="wrapper" style={{ width: "100%" }}>
           <div class="hero-banner">
             <div class="container">
               <div class="row justify-content-center">
