@@ -59,7 +59,7 @@ const Sidebar = () => {
               </li>
               <li class="menu--item">
                 <a
-                  href="my_organisation_dashboard_reports.html"
+                  href="/dashboard-report"
                   class="menu--link"
                   title="Reports"
                   data-bs-toggle="tooltip"
