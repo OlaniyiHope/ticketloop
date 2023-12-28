@@ -96,7 +96,7 @@ const Sidebar = () => {
               <li class="menu--item">
                 <a
                   href="/dashboard-profile"
-                  class="menu--link active"
+                  class="menu--link "
                   title="About"
                   data-bs-toggle="tooltip"
                   data-bs-placement="right"
