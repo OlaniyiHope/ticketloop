@@ -1,6 +1,6 @@
 import React from "react";
-import parkwell from "./pages/remo.png";
-const Dashboard = () => {
+import parkwell from "./pages/parklogo.png";
+const DashboardProfile = () => {
   return (
     <>
       <body class="d-flex flex-column h-100">
@@ -584,7 +584,7 @@ const Dashboard = () => {
                 </li>
                 <li class="menu--item">
                   <a
-                    href=""
+                    href="/dashboard/profile"
                     class="menu--link"
                     title="About"
                     data-bs-toggle="tooltip"
@@ -867,4 +867,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardProfile;

@@ -179,6 +179,9 @@ const Header = () => {
                         <a href="/dashboard" class="link-item">
                           My Dashboard
                         </a>
+                        <a href="/dashboard/profile" class="link-item">
+                          My Dashboard
+                        </a>
                         <a href="/organizer-profile" class="link-item">
                           My Profile
                         </a>
