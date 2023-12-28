@@ -1,20 +1,186 @@
 import React from "react";
-import parkwell from "./pages/remo.png";
-const Dashboard = () => {
+import parkwell from "./remo.png";
+const DashboardProfile = () => {
   return (
     <>
       <body class="d-flex flex-column h-100">
         <div
           class="modal fade"
-          id="addorganisationModal"
+          id="orgSettings"
           tabindex="-1"
-          aria-labelledby="addorganisationLabel"
-          aria-hidden="true"
+          aria-labelledby="orgSettingsLabel"
+          aria-hidden="false"
         >
-          <div class="modal-dialog modal-lg">
+          <div class="modal-dialog modal-medium-2 modal-dialog-scrollable modal-dialog-centered modal-sm-height modal-lg">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="addorganisationLabel">
+                <h5 class="modal-title" id="orgSettingsLabel">
+                  Privacy Settings
+                </h5>
+                <button
+                  type="button"
+                  class="close-model-btn"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="uil uil-multiply"></i>
+                </button>
+              </div>
+              <div class="modal-body p-bg">
+                <div class="model-content main-form pt-2 p-4">
+                  <div class="mt-4">
+                    <div class="setting-step main-card p-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Allow TicketLoop to Access My Organisation
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1">
+                        If you enable this, Eventbookings will be able to manage
+                        your organisation(s)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="orgPrivacySettings"
+          tabindex="-1"
+          aria-labelledby="orgPrivacySettingsLabel"
+          aria-hidden="false"
+        >
+          <div class="modal-dialog modal-medium-2 modal-dialog-scrollable modal-dialog-centered modal-sm-height modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="orgPrivacySettingsLabel">
+                  Privacy Settings
+                </h5>
+                <button
+                  type="button"
+                  class="close-model-btn"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="uil uil-multiply"></i>
+                </button>
+              </div>
+              <div class="modal-body p-bg">
+                <div class="model-content main-form pt-2 p-4">
+                  <div class="main-card p-4 mt-4">
+                    <div class="setting-step border_bottom">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">Lock Organisation Profile</h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-4">
+                        Locking profile hides all kinds of user information,
+                        activities and interaction from public profile
+                      </p>
+                    </div>
+                    <div class="setting-step border_bottom pt-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Hide address on my organisation profile
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" checked />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-4">
+                        Hide the address of your organisation from your
+                        organisation's public profile
+                      </p>
+                    </div>
+                    <div class="setting-step border_bottom pt-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Allow people to contact my organisation
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" checked />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-4">
+                        People will be able to send you emails through
+                        TicketLoop who visits your organisation profile
+                      </p>
+                    </div>
+                    <div class="setting-step border_bottom pt-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Allow people to follow my organisation
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" checked />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-4">People will be able to follow you</p>
+                    </div>
+                    <div class="setting-step border_bottom pt-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Hide reviews on my organisation profile
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-4">
+                        No one will be able to see your organisation's reviews
+                        and rating. Hiding reviews do not allow others to give
+                        your organisation review or rating as well
+                      </p>
+                    </div>
+                    <div class="setting-step border_bottom pt-4">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="setting-title">
+                          Hide review interactions from public
+                        </h3>
+                        <label class="btn-switch m-0 ml-2">
+                          <input type="checkbox" />
+                          <span class="checkbox-slider"></span>
+                        </label>
+                      </div>
+                      <p class="mt-1 mb-0">
+                        The review rating will be available in your
+                        Organisation's public profile but we will not show any
+                        activity in any public feed
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="org-profile-update-pop"
+          tabindex="-1"
+          aria-labelledby="orgProfileUpdatepopLabel"
+          aria-hidden="false"
+        >
+          <div class="modal-dialog modal-medium-2 modal-dialog-scrollable modal-dialog-centered modal-sm-height modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="orgProfileUpdatepopLabel">
                   Organisation details
                 </h5>
                 <button
@@ -30,8 +196,7 @@ const Dashboard = () => {
                 <div class="model-content main-form">
                   <div class="row">
                     <div class="col-lg-12 col-md-12">
-                      <div class="form-group text-center mt-4">
-                        <label class="form-label">Avatar*</label>
+                      <div class="form-group text-center mt-5">
                         <span class="org_design_button btn-file">
                           <span>
                             <i class="fa-solid fa-camera"></i>
@@ -52,28 +217,31 @@ const Dashboard = () => {
                           class="form-control h_40"
                           type="text"
                           placeholder=""
-                          value=""
+                          value="John Doe"
                         />
                       </div>
                     </div>
                     <div class="col-lg-12 col-md-12">
                       <div class="form-group mt-4">
                         <label class="form-label">Profile Link*</label>
-                        <input
-                          class="form-control h_40"
-                          type="text"
-                          placeholder=""
-                          value="https://www.barren.com/b/organiser/"
-                          disabled
-                        />
+                        <div class="loc-group position-relative">
+                          <input
+                            class="form-control h_40"
+                            type="text"
+                            placeholder=""
+                            value="https://www.barren.com/b/organiser/john-doe"
+                          />
+                          <span class="copy-link">Copy Link</span>
+                        </div>
                       </div>
                     </div>
                     <div class="col-lg-12 col-md-12">
                       <div class="form-group mt-4">
                         <label class="form-label">About*</label>
-                        <textarea class="form-textarea" placeholder="">
-                          About
-                        </textarea>
+                        <textarea
+                          class="form-textarea"
+                          placeholder="About"
+                        ></textarea>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -83,7 +251,7 @@ const Dashboard = () => {
                           class="form-control h_40"
                           type="text"
                           placeholder=""
-                          value=""
+                          value="Johndoe@example.com"
                         />
                       </div>
                     </div>
@@ -299,12 +467,13 @@ const Dashboard = () => {
                 <button
                   type="button"
                   class="co-main-btn min-width btn-hover h_40"
+                  data-bs-toggle="modal"
                   data-bs-dismiss="modal"
                 >
                   Cancel
                 </button>
                 <button type="button" class="main-btn min-width btn-hover h_40">
-                  Add
+                  Update
                 </button>
               </div>
             </div>
@@ -335,7 +504,7 @@ const Dashboard = () => {
                 </button>
                 <a
                   class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto"
-                  href="/"
+                  href="index.html"
                 >
                   <div class="res-main-logo">
                     <img src={parkwell} alt="" />
@@ -353,7 +522,7 @@ const Dashboard = () => {
                 >
                   <div class="offcanvas-header">
                     <div class="offcanvas-logo" id="offcanvasNavbarLabel">
-                      <img src={parkwell} alt="" />
+                      <img src="images/logo-icon.svg" alt="" />
                     </div>
                     <button
                       type="button"
@@ -489,7 +658,7 @@ const Dashboard = () => {
                 <li class="menu--item">
                   <a
                     href="my_organisation_dashboard.html"
-                    class="menu--link active"
+                    class="menu--link"
                     title="Dashboard"
                     data-bs-toggle="tooltip"
                     data-bs-placement="right"
@@ -584,8 +753,8 @@ const Dashboard = () => {
                 </li>
                 <li class="menu--item">
                   <a
-                    href="/dashboard-profile"
-                    class="menu--link"
+                    href="my_organisation_dashboard_about.html"
+                    class="menu--link active"
                     title="About"
                     data-bs-toggle="tooltip"
                     data-bs-placement="right"
@@ -618,243 +787,154 @@ const Dashboard = () => {
                 <div class="col-md-12">
                   <div class="d-main-title">
                     <h3>
-                      <i class="fa-solid fa-gauge me-3"></i>Dashboard
+                      <i class="fa-solid fa-circle-info me-3"></i>About My
+                      Organisation
                     </h3>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="main-card add-organisation-card p-4 mt-5">
-                    <div class="ocard-left">
-                      <div class="ocard-avatar">
-                        <img src="images/profile-imgs/img-13.jpg" alt="" />
+                <div class="col-lg-6 col-md-12">
+                  <div class="conversion-setup">
+                    <div class="main-card mt-5">
+                      <div class="bp-title position-relative">
+                        <h4>About</h4>
+                        <div class="profile-edit-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#orgSettings"
+                            class="btn"
+                          >
+                            <i class="fa-solid fa-user-gear"></i>
+                          </a>
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#orgPrivacySettings"
+                            class="btn"
+                          >
+                            <i class="fa-solid fa-gear"></i>
+                          </a>
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#org-profile-update-pop"
+                            class="btn"
+                          >
+                            <i class="fa-solid fa-pen"></i>
+                          </a>
+                        </div>
                       </div>
-                      <div class="ocard-name">
-                        <h4>John Doe</h4>
-                        <span>My Organisation</span>
-                      </div>
-                    </div>
-                    <div class="ocard-right">
-                      <button
-                        class="pe-4 ps-4 co-main-btn min-width"
-                        data-bs-toggle="modal"
-                        data-bs-target="#addorganisationModal"
-                      >
-                        <i class="fa-solid fa-plus"></i>Add Organisation
-                      </button>
-                    </div>
-                  </div>
-                  <div class="main-card mt-4">
-                    <div class="dashboard-wrap-content">
-                      <div class="d-flex flex-wrap justify-content-between align-items-center p-4">
-                        <div class="dashboard-date-wrap d-flex flex-wrap justify-content-between align-items-center">
-                          <div class="dashboard-date-arrows">
-                            <a href="#" class="before_date">
-                              <i class="fa-solid fa-angle-left"></i>
-                            </a>
-                            <a href="#" class="after_date disabled">
-                              <i class="fa-solid fa-angle-right"></i>
-                            </a>
+                      <div class="about-details">
+                        <div class="about-step text-center">
+                          <div class="user-avatar-img">
+                            <img src="images/profile-imgs/img-13.jpg" alt="" />
                           </div>
-                          <h5 class="dashboard-select-date">
-                            <span>1st April, 2022</span>-
-                            <span>30th April, 2022</span>
+                          <div class="user-dts">
+                            <h4 class="user-name">
+                              John Doe
+                              <span class="verify-badge">
+                                <i class="fa-solid fa-circle-check"></i>
+                              </span>
+                            </h4>
+                            <span class="user-email">johndoe@example.com</span>
+                          </div>
+                        </div>
+                        <div class="about-step">
+                          <h5>
+                            Tell us about yourself and let people know who you
+                            are
                           </h5>
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Ut tincidunt interdum nunc et auctor.
+                            Phasellus quis pharetra sapien. Integer ligula sem,
+                            sodales vitae varius in, varius eget augue.
+                          </p>
                         </div>
-                        <div class="rs">
-                          <div class="dropdown dropdown-text event-list-dropdown">
-                            <button
-                              class="dropdown-toggle event-list-dropdown"
-                              type="button"
-                              data-bs-toggle="dropdown"
-                              aria-expanded="false"
+                        <div class="about-step">
+                          <h5>Find me on</h5>
+                          <div class="social-links">
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="Facebook"
+                              aria-label="Facebook"
                             >
-                              <span>Selected Events (1)</span>
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a class="dropdown-item" href="#">
-                                  1
-                                </a>
-                              </li>
-                            </ul>
+                              <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="Instagram"
+                              aria-label="Instagram"
+                            >
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="Twitter"
+                              aria-label="Twitter"
+                            >
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="LinkedIn"
+                              aria-label="LinkedIn"
+                            >
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="Youtube"
+                              aria-label="Youtube"
+                            >
+                              <i class="fab fa-youtube"></i>
+                            </a>
+                            <a
+                              href="#"
+                              class="social-link"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title=""
+                              data-bs-original-title="Website"
+                              aria-label="Website"
+                            >
+                              <i class="fa-solid fa-globe"></i>
+                            </a>
                           </div>
                         </div>
-                      </div>
-                      <div class="dashboard-report-content">
-                        <div class="row">
-                          <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="dashboard-report-card purple">
-                              <div class="card-content">
-                                <div class="card-content">
-                                  <span class="card-title fs-6">
-                                    Revenue (AUD)
-                                  </span>
-                                  <span class="card-sub-title fs-3">
-                                    $550.00
-                                  </span>
-                                  <div class="d-flex align-items-center">
-                                    <span>
-                                      <i class="fa-solid fa-arrow-trend-up"></i>
-                                    </span>
-                                    <span class="text-Light font-12 ms-2 me-2">
-                                      0.00%
-                                    </span>
-                                    <span class="font-12 color-body text-nowrap">
-                                      From Previous Period
-                                    </span>
-                                  </div>
-                                </div>
-                                <div class="card-media">
-                                  <i class="fa-solid fa-money-bill"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="dashboard-report-card red">
-                              <div class="card-content">
-                                <div class="card-content">
-                                  <span class="card-title fs-6">Orders</span>
-                                  <span class="card-sub-title fs-3">2</span>
-                                  <div class="d-flex align-items-center">
-                                    <span>
-                                      <i class="fa-solid fa-arrow-trend-up"></i>
-                                    </span>
-                                    <span class="text-Light font-12 ms-2 me-2">
-                                      0.00%
-                                    </span>
-                                    <span class="font-12 color-body text-nowrap">
-                                      From Previous Period
-                                    </span>
-                                  </div>
-                                </div>
-                                <div class="card-media">
-                                  <i class="fa-solid fa-box"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="dashboard-report-card info">
-                              <div class="card-content">
-                                <div class="card-content">
-                                  <span class="card-title fs-6">
-                                    Page Views
-                                  </span>
-                                  <span class="card-sub-title fs-3">30</span>
-                                  <div class="d-flex align-items-center">
-                                    <span>
-                                      <i class="fa-solid fa-arrow-trend-up"></i>
-                                    </span>
-                                    <span class="text-Light font-12 ms-2 me-2">
-                                      0.00%
-                                    </span>
-                                    <span class="font-12 color-body text-nowrap">
-                                      From Previous Period
-                                    </span>
-                                  </div>
-                                </div>
-                                <div class="card-media">
-                                  <i class="fa-solid fa-eye"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-3 col-lg-6 col-md-6">
-                            <div class="dashboard-report-card success">
-                              <div class="card-content">
-                                <div class="card-content">
-                                  <span class="card-title fs-6">
-                                    Ticket Sales
-                                  </span>
-                                  <span class="card-sub-title fs-3">3</span>
-                                  <div class="d-flex align-items-center">
-                                    <span>
-                                      <i class="fa-solid fa-arrow-trend-up"></i>
-                                    </span>
-                                    <span class="text-Light font-12 ms-2 me-2">
-                                      0.00%
-                                    </span>
-                                    <span class="font-12 color-body text-nowrap">
-                                      From Previous Period
-                                    </span>
-                                  </div>
-                                </div>
-                                <div class="card-media">
-                                  <i class="fa-solid fa-ticket"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                        <div class="about-step">
+                          <h5>Address</h5>
+                          <p class="mb-0">
+                            00 Challis St, Newport, Victoria, 0000, Australia
+                          </p>
+                        </div>
+                        <div class="about-step">
+                          <a href="#" class="view-profile-link a-link">
+                            View Public Profile
+                            <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                          </a>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="main-card mt-4">
-                    <div class="d-flex flex-wrap justify-content-between align-items-center border_bottom p-4">
-                      <div class="dashboard-date-wrap d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="select-graphic-category">
-                          <div class="form-group main-form mb-2">
-                            <select class="selectpicker" data-width="150px">
-                              <option value="revenue">Revenue</option>
-                              <option value="orders">Orders</option>
-                              <option value="pageviews">Page Views</option>
-                              <option value="ticketsales">Ticket Sales</option>
-                            </select>
-                          </div>
-                          <small class="mt-4">
-                            See the graphical representation below
-                          </small>
-                        </div>
-                      </div>
-                      <div class="rs">
-                        <div
-                          class="btn-group"
-                          role="group"
-                          aria-label="Basic radio toggle button group"
-                        >
-                          <input
-                            type="radio"
-                            class="btn-check"
-                            name="btnradio"
-                            id="btnradio1"
-                          />
-                          <label
-                            class="btn btn-outline-primary"
-                            for="btnradio1"
-                          >
-                            Monthly
-                          </label>
-                          <input
-                            type="radio"
-                            class="btn-check"
-                            name="btnradio"
-                            id="btnradio2"
-                            checked
-                          />
-                          <label
-                            class="btn btn-outline-primary"
-                            for="btnradio2"
-                          >
-                            Weekly
-                          </label>
-                          <input
-                            type="radio"
-                            class="btn-check"
-                            name="btnradio"
-                            id="btnradio3"
-                          />
-                          <label
-                            class="btn btn-outline-primary"
-                            for="btnradio3"
-                          >
-                            Dailty
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item-analytics-content p-4 ps-1 pb-2">
-                      <div id="views-graphic"></div>
                     </div>
                   </div>
                 </div>
@@ -867,4 +947,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardProfile;
