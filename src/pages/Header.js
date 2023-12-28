@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import parkwell from "./lop.jpg";
+import parkwell from "./remo.png";
 const Header = () => {
   return (
     <>
