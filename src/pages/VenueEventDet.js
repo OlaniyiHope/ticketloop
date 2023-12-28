@@ -251,7 +251,7 @@ const VenueEventDet = () => {
                       </div>
                     </div>
                     <div class="booking-btn">
-                      <a href="checkout.html" class="main-btn btn-hover w-100">
+                      <a href="/checkout" class="main-btn btn-hover w-100">
                         Book Now
                       </a>
                     </div>
